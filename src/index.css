@@ -57,6 +57,7 @@ body {
   background-color: #000;
   color: var(--color-dark-100);
   font-family: var(--font-semibold);
+  min-height: 100vh;
 }
 
 @utility flex-center {
@@ -116,7 +117,7 @@ body {
     @apply h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
 
     div {
-      @apply relative z-10 col-center lg:translate-y-16;
+      @apply relative z-10 col-center lg:translate-y-16 h-fit;
 
       h1 {
         @apply font-semibold lg:text-3xl 2xl:text-5xl text-white;
@@ -128,7 +129,7 @@ body {
     }
 
     video {
-      @apply mx-auto lg:translate-y-5 2xl:translate-y-0;
+      @apply mx-auto lg:translate-y-5 2xl:translate-y-0 lg:px-52 sm:max-h-36 lg:max-h-70;
     }
 
     button {
@@ -136,7 +137,7 @@ body {
     }
 
     p {
-      @apply lg:h3-semibold base-semibold;
+      @apply lg:h3-semibold base-semibold sm:mb-10 lg:mb-20;
     }
   }
 
