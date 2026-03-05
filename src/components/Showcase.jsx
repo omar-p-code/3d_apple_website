@@ -18,7 +18,7 @@ function Showcase() {
             }
          });
          timeline.to('.mask img', {
-            scale: 1.1
+            scale: 1.2
          }).to('.content', {
             opacity: 1, y: 0, ease: 'power1.in'
          });
