@@ -35,7 +35,7 @@ function Highlights() {
                   <img src="/sun.png" alt="Sun" />
                   <p>
                      A stunning<br />
-                     Liquid REtina XDR<br />
+                     Liquid Retina XDR<br />
                      display.
                   </p>
                </div>
